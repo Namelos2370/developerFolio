@@ -115,17 +115,17 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: false, // Set to true and fill in your school details
+  display: true,
   schools: [
     {
-      schoolName: "Your University",
+      schoolName: "Université de Yaoundé I",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "2023 - Present",
-      desc: "Studying Computer Science with a focus on data structures, algorithms and software engineering.",
+      subHeader: "Licence en Informatique",
+      duration: "2023 - Présent",
+      desc: "Formation en informatique avec un focus sur les structures de données, les algorithmes et le développement logiciel.",
       descBullets: [
-        "INF231 - Data Structures",
-        "INF231 - Image Processing in C"
+        "INF231 - Structures de Données (C)",
+        "INF231 - Traitement d'Images en C"
       ]
     }
   ]
