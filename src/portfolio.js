@@ -119,7 +119,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Université de Yaoundé I",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/uy1Logo.svg"),
       subHeader: "Licence en Informatique - Génie Logiciel",
       duration: "2023 - Présent",
       desc: "Formation en génie logiciel avec un focus sur les structures de données, la conception de systèmes et le développement d'applications.",

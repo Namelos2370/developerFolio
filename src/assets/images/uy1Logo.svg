@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Outer circle border -->
+  <circle cx="100" cy="100" r="96" fill="#1a5c1a" stroke="#c8a832" stroke-width="4"/>
+  <!-- Inner circle -->
+  <circle cx="100" cy="100" r="80" fill="#1a5c1a" stroke="#c8a832" stroke-width="2"/>
+  <!-- Center white area -->
+  <circle cx="100" cy="100" r="58" fill="white"/>
+
+  <!-- Four figures around a table (simplified Abbia-style) -->
+  <!-- Table -->
+  <ellipse cx="100" cy="105" rx="24" ry="12" fill="#c8a832"/>
+  <!-- Figure top -->
+  <circle cx="100" cy="73" r="7" fill="#1a5c1a"/>
+  <path d="M93,80 Q100,95 107,80" fill="#1a5c1a"/>
+  <!-- Figure bottom -->
+  <circle cx="100" cy="137" r="7" fill="#1a5c1a"/>
+  <path d="M93,130 Q100,115 107,130" fill="#1a5c1a"/>
+  <!-- Figure left -->
+  <circle cx="69" cy="105" r="7" fill="#1a5c1a"/>
+  <path d="M76,100 Q90,105 76,110" fill="#1a5c1a"/>
+  <!-- Figure right -->
+  <circle cx="131" cy="105" r="7" fill="#1a5c1a"/>
+  <path d="M124,100 Q110,105 124,110" fill="#1a5c1a"/>
+
+  <!-- Top text arc: UNIVERSITÉ DE YAOUNDÉ I -->
+  <path id="topArc" d="M 20,100 A 80,80 0 0,1 180,100" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="white" letter-spacing="1">
+    <textPath href="#topArc" startOffset="8%">UNIVERSITÉ DE YAOUNDÉ I</textPath>
+  </text>
+
+  <!-- Bottom text arc: Sapientia Collativa Cognitio -->
+  <path id="bottomArc" d="M 20,100 A 80,80 0 0,0 180,100" fill="none"/>
+  <text font-family="Arial, sans-serif" font-size="8" fill="#c8a832" font-style="italic" letter-spacing="0.5">
+    <textPath href="#bottomArc" startOffset="5%">Sapientia Collativa Cognitio</textPath>
+  </text>
+
+  <!-- Decorative dots (Abbia style) -->
+  <circle cx="100" cy="18" r="3" fill="#c8a832"/>
+  <circle cx="100" cy="182" r="3" fill="#c8a832"/>
+  <circle cx="18" cy="100" r="3" fill="#c8a832"/>
+  <circle cx="182" cy="100" r="3" fill="#c8a832"/>
+</svg>
