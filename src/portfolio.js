@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Namelos2370",
-  title: "Hi, I'm a Full-Stack Developer",
+  username: "Gabriel Fokou",
+  title: "Hi, I'm Gabriel",
   subTitle: emoji(
-    "A passionate Full-Stack Developer 🚀 building web and mobile applications with JavaScript / TypeScript / React / Next.js / Node.js / Python / Django and modern frameworks."
+    "A passionate Full-Stack Developer 🚀 building web applications with JavaScript / TypeScript / React / Next.js / Node.js / Python / Django and modern frameworks."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -33,8 +33,8 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Namelos2370",
-  // linkedin: "https://www.linkedin.com/in/your-profile/",
-  // gmail: "your-email@gmail.com",
+  linkedin: "https://www.linkedin.com/in/gabriel-fokou-b39309294",
+  gmail: "Gabrielfokou26@gmail.com",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
@@ -296,8 +296,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Want to discuss a project or just say hi? Feel free to reach out!",
-  number: "", // Add your phone number here
-  email_address: "" // Add your email address here
+  number: "+237-658980051",
+  email_address: "Gabrielfokou26@gmail.com"
 };
 
 // Twitter Section
